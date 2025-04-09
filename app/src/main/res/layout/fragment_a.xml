@@ -3,9 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/fragment_a_background">
 
-    <TextView
+
+<TextView
         android:id="@+id/fragmentATextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,5 +33,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Send to Fragment" />
+        android:text="Send to Fragment C" />
 </LinearLayout>
